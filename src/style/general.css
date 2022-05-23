@@ -15,4 +15,46 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.header {
+  border: 1px solid red;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: transparent;
+  position: fixed;
+  z-index: 99;
+}
+
+.header .header--logo {
+  width: 5rem;
+}
+
+.header .header--menu--button {
+  border: none;
+  background: none;
+}
+
+.header .header--nav {
+  width: 100%;
+}
+
+.header .header--nav .header--nav--ul {
+  display: none;
+}
+
+.header .header--nav .header--nav--ul.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=general.css.map */

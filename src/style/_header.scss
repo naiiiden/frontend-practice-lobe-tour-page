@@ -1,0 +1,35 @@
+.header {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: transparent;
+    position: fixed;
+    z-index: 99;
+    
+    .header--logo {
+        width: 5rem;
+    }
+
+    .header--menu--button {
+        border: none;
+        background: none;
+    }
+    
+    .header--nav {
+        width: 100%;
+        
+
+        .header--nav--ul {
+            display: none;
+
+            &.show {
+                display: flex;
+            }
+            
+        }
+    }
+
+}
