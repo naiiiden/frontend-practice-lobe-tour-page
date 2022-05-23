@@ -15,12 +15,12 @@ const Header = () => {
             </button>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${!openMenu ? "" : "show"}`}>
-                    <li className="header--nav--ul--li--link1"><a href="">Overview</a></li>
-                    <li><a href="">Examples</a></li>
-                    <li><a href="" className="header--nav--ul--tour--link">Tour</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Help</a></li>
-                    <li className="header--nav--ul--li--download"><a href="" className="header--nav--ul--download--link">Download</a></li>
+                    <li className="header--nav--ul--li--link1"><a href="https://www.lobe.ai/">Overview</a></li>
+                    <li><a href="https://www.lobe.ai/examples">Examples</a></li>
+                    <li><a href="https://www.lobe.ai/tour" className="header--nav--ul--tour--link">Tour</a></li>
+                    <li><a href="https://www.lobe.ai/blog">Blog</a></li>
+                    <li><a href="https://www.lobe.ai/docs/welcome/welcome">Help</a></li>
+                    <li className="header--nav--ul--li--download"><a href="https://www.lobe.ai/docs/welcome/welcome" className="header--nav--ul--download--link">Download</a></li>
                 </ul>
             </nav>
         </header>
