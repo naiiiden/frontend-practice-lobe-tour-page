@@ -121,7 +121,7 @@ img {
 
 @media screen and (min-width: 1024px) {
   .header {
-    padding: 1.25rem 2.5rem;
+    padding: 1rem 2.5rem;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
@@ -138,6 +138,9 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: unset;
     gap: 2rem;
   }
@@ -151,10 +154,21 @@ img {
   }
   .header .header--nav .header--nav--ul a {
     font-size: 1.125rem;
+    display: inline-block;
+  }
+  .header .header--nav .header--nav--ul a:hover {
+    color: #333;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   .header .header--nav .header--nav--ul a.header--nav--ul--download--link {
     padding: .75rem;
     font-weight: 700;
+  }
+  .header .header--nav .header--nav--ul a.header--nav--ul--download--link:hover {
+    color: #fff;
   }
 }
 /*# sourceMappingURL=general.css.map */
