@@ -1,4 +1,4 @@
-import Logo from "../images/logo.svg";
+import Logo from "../images/Lobe_logo.png";
 import Open from "../images/Hamburger.svg";
 import Close from "../images/Close.svg";
 
