@@ -20,7 +20,7 @@ const Header = () => {
                     <li><a href="" className="header--nav--ul--tour--link">Tour</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="">Help</a></li>
-                    <li><a href="" className="header--nav--ul--download--link">Download</a></li>
+                    <li className="header--nav--ul--li--download"><a href="" className="header--nav--ul--download--link">Download</a></li>
                 </ul>
             </nav>
         </header>
