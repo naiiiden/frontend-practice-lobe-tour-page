@@ -11,7 +11,7 @@ const Header = () => {
         <header className="header">
             <img src={Logo} alt="Lobe's logo" className="header--logo"/>
             <button aria-label="toggle navigation" className="header--menu--button" onClick={ToggleNav}>
-                <img src={Open} alt=""/>
+                <img src={!openMenu ? Open : Close} alt=""/>
             </button>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${!openMenu ? "" : "show"}`}>
