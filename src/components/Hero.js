@@ -3,6 +3,7 @@ const Hero = ({ h1Text, spanText, pText, embedId, width, height }) => {
         <div className="hero--container">
             <h1 className="hero--heading">{h1Text} <span className="hero--heading--span">{spanText}</span></h1>
             <p className="hero--description">{pText}</p>
+            <div className="hero--video--container">
                 <iframe src={`https://www.youtube.com/embed/${embedId}`}
                     frameBorder="0"
                     width={`${width}%`}
@@ -11,6 +12,7 @@ const Hero = ({ h1Text, spanText, pText, embedId, width, height }) => {
                     allowFullScreen
                     title="Embedded Youtube video"
                 />
+            </div>
         </div>
     )
 }
