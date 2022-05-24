@@ -56,3 +56,13 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .hero--container {
+        padding: 7.5rem 5rem 0 5rem;
+
+        .hero--video--container {
+            height: 30rem;
+        }
+    }
+}
