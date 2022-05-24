@@ -9,6 +9,7 @@ const Hero = ({ h1Text, spanText, pText, embedId, width, height }) => {
                     height={`${height}px`}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
+                    title="Embedded Youtube video"
                 />
         </div>
     )
