@@ -6,8 +6,6 @@ const Hero = ({ h1Text, spanText, pText, embedId, width, height }) => {
             <div className="hero--video--container">
                 <iframe src={`https://www.youtube.com/embed/${embedId}`}
                     frameBorder="0"
-                    width={`${width}%`}
-                    height={`${height}px`}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     title="Embedded Youtube video"

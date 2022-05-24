@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Header/>
-      <Hero width={100} height={500} h1Text="Lobe" spanText="Tour" pText="Build your first machine learning model in ten minutes. No code or experience required." embedId="Mdcw3Sb98DA"/>
+      <Hero h1Text="Lobe" spanText="Tour" pText="Build your first machine learning model in ten minutes. No code or experience required." embedId="Mdcw3Sb98DA"/>
     </div>
   )
 }

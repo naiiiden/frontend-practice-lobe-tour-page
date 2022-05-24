@@ -175,4 +175,19 @@ img {
 .hero--container {
   padding-top: 5rem;
 }
+
+.hero--container .hero--video--container {
+  overflow: hidden;
+  position: relative;
+  height: 30rem;
+  border: 1px solid red;
+}
+
+.hero--container .hero--video--container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
 /*# sourceMappingURL=general.css.map */
