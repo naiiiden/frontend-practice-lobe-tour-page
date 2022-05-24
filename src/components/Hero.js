@@ -1,4 +1,4 @@
-const Hero = ({ h1Text, spanText, pText, embedId, width, height }) => {
+const Hero = ({ h1Text, spanText, pText, embedId }) => {
     return (
         <div className="hero--container">
             <h1 className="hero--heading">{h1Text} <span className="hero--heading--span">{spanText}</span></h1>
