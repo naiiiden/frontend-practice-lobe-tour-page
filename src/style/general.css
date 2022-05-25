@@ -338,4 +338,16 @@ img {
     transition: .2s;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .cta--container .cta--heading {
+    font-size: 5rem;
+    max-width: 600px;
+  }
+  .cta--container .cta--button {
+    font-size: 1.5rem;
+    width: 200px;
+    height: 64px;
+  }
+}
 /*# sourceMappingURL=general.css.map */
