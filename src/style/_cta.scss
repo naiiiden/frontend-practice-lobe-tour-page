@@ -27,3 +27,21 @@
         box-shadow: 0 10px 20px -8px transparent;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .cta--container {
+        padding: 5rem 2rem;
+        gap: 2.5rem;
+
+        .cta--heading {
+            max-width: 400px;
+            font-size: 3.5rem;
+        }
+
+        .cta--button {
+            width: 168px;
+            height: 50px;
+            font-size: 1.25rem;
+        }
+    }
+}
