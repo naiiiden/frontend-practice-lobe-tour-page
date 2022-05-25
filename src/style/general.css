@@ -111,12 +111,15 @@ img {
   color: #333;
 }
 
-.header .header--nav .header--nav--ul a.header--nav--ul--download--link {
+.header .header--nav .header--nav--ul .header--nav--ul--download--link {
+  border: none;
   margin: auto;
   background: #04ddb2;
   color: #fff;
   padding: .5rem 5rem;
   border-radius: 50px;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1024px) {
@@ -163,12 +166,17 @@ img {
     -webkit-transition: .2s;
     transition: .2s;
   }
-  .header .header--nav .header--nav--ul a.header--nav--ul--download--link {
+  .header .header--nav .header--nav--ul .header--nav--ul--download--link {
     padding: .75rem;
     font-weight: 700;
+    cursor: pointer;
   }
-  .header .header--nav .header--nav--ul a.header--nav--ul--download--link:hover {
+  .header .header--nav .header--nav--ul .header--nav--ul--download--link:hover {
     color: #fff;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: .2s;
+    transition: .2s;
   }
 }
 

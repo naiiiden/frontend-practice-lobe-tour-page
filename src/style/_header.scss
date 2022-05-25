@@ -64,13 +64,17 @@
                     color: $dark-gray;
                 }
 
-                &.header--nav--ul--download--link {
-                    margin: auto;
-                    background: $green;
-                    color: $white;
-                    padding: .5rem 5rem;
-                    border-radius: 50px;
-                }
+            }
+
+            .header--nav--ul--download--link {
+                border: none;
+                margin: auto;
+                background: $green;
+                color: $white;
+                padding: .5rem 5rem;
+                border-radius: 50px;
+                font-size: 1.25rem;
+                font-weight: 700;
             }
             
         }
@@ -116,13 +120,17 @@
                         transition: .2s;
                     }
 
-                    &.header--nav--ul--download--link {
-                        padding: .75rem;
-                        font-weight: 700;
+                }
+                
+                .header--nav--ul--download--link {
+                    padding: .75rem;
+                    font-weight: 700;
+                    cursor: pointer;
 
-                        &:hover {
-                            color: $white;
-                        }
+                    &:hover {
+                        color: $white;
+                        transform: scale(1.1);
+                        transition: .2s;
                     }
                 }
             }
