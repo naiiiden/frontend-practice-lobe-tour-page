@@ -1,0 +1,29 @@
+.cta--container {
+    padding: 3.25rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+    text-align: center;
+
+    .cta--heading {
+        max-width: 300px;
+        font-size: 2.375rem;
+        line-height: 1.05;
+        font-weight: 900;
+        color: $dark-gray;
+    }
+
+    .cta--button {
+        width: 148px;
+        height: 42px;
+        font-size: 1.125rem;
+        border-radius: 2rem;
+        border: none;
+        font-family: inherit;
+        font-weight: 700;
+        color: $white;
+        background: $green;
+        box-shadow: 0 10px 20px -8px transparent;
+    }
+}
