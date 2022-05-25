@@ -5,7 +5,8 @@
         "general.scss",
         "_header.scss",
         "_hero.scss",
-        "_cta.scss"
+        "_cta.scss",
+        "_footer.scss"
     ],
     "names": [],
     "file": "general.css"
