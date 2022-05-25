@@ -243,4 +243,18 @@ img {
     height: 30rem;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .hero--container .hero--video--container {
+    margin-top: 5rem;
+    width: 75%;
+    height: 32.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero--container .hero--video--container {
+    height: 37.5rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
