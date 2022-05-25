@@ -253,6 +253,12 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
+  .hero--container .hero--heading {
+    font-size: 4rem;
+  }
+  .hero--container .hero--description {
+    font-size: 1.625rem;
+  }
   .hero--container .hero--video--container {
     margin-top: 5rem;
     width: 75%;
