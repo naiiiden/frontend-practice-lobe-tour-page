@@ -319,4 +319,23 @@ img {
     font-size: 1.25rem;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .cta--container {
+    gap: 2.75rem;
+  }
+  .cta--container .cta--heading {
+    max-width: 500px;
+    font-size: 4rem;
+  }
+  .cta--container .cta--button {
+    cursor: pointer;
+  }
+  .cta--container .cta--button:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+}
 /*# sourceMappingURL=general.css.map */
