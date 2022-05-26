@@ -7,26 +7,28 @@ const Footer = () => {
     return (
         <footer>
             <ul className="footer--logo--container">
-                <li><img src={Logo} alt="Lobe's logo"/></li>
+                <li><img src={Logo} alt="Lobe's logo" className="footer--logo"/></li>
                 <li>A product by Microsoft.</li>
                 <li>All rights reserved.</li>
                 <li>© Microsoft 2021</li>
             </ul>
             <nav className="footer--nav">
-                <ul className="footer--nav--ul">
-                    <li className="footer--nav--ul--heading">About</li>
-                    <li><a href="">Download</a></li>
-                    <li><a href="">Overview</a></li>
-                    <li><a href="">Examples</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul>
-                <ul className="footer--nav--ul">
-                    <li className="footer--nav--ul--heading">General</li>
-                    <li><a href="">Notice</a></li>
-                    <li><a href="">License</a></li>
-                    <li><a href="">Press Inquiry</a></li>
-                    <li><a href="">Press Images</a></li>
-                </ul>
+                <div className="footer--nav--ul--subcontainer">
+                    <ul className="footer--nav--ul">
+                        <li className="footer--nav--ul--heading">About</li>
+                        <li><a href="">Download</a></li>
+                        <li><a href="">Overview</a></li>
+                        <li><a href="">Examples</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                    <ul className="footer--nav--ul">
+                        <li className="footer--nav--ul--heading">General</li>
+                        <li><a href="">Notice</a></li>
+                        <li><a href="">License</a></li>
+                        <li><a href="">Press Inquiry</a></li>
+                        <li><a href="">Press Images</a></li>
+                    </ul>
+                </div>
                 <div className="footer--resources--socials--container">
                     <ul className="footer--nav--ul">
                         <li className="footer--nav--ul--heading">Resources</li>
