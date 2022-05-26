@@ -48,6 +48,7 @@
 
 @media screen and (min-width: 1280px) {
     .cta--container {
+        padding: 6rem 2rem;
         gap: 2.75rem;
 
         .cta--heading {
@@ -68,6 +69,8 @@
 
 @media screen and (min-width: 1600px) {
     .cta--container {
+        padding: 8rem 2rem;
+
         .cta--heading {
             font-size: 5rem;
             max-width: 600px;
