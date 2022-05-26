@@ -581,4 +581,10 @@ footer .footer--nav .footer--resources--socials--container .footer--nav--ul--soc
     gap: 7rem;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  footer {
+    font-size: 1.25rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
