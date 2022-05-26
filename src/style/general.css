@@ -553,8 +553,22 @@ footer .footer--nav .footer--resources--socials--container .footer--nav--ul--soc
   footer .footer--nav {
     gap: 4rem;
   }
+  footer .footer--nav .footer--nav--ul a:hover {
+    display: inline-block;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
   footer .footer--nav .footer--resources--socials--container {
     gap: 3rem;
+  }
+  footer .footer--nav .footer--resources--socials--container .footer--nav--ul--socials a:hover {
+    display: inline-block;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   footer .footer--nav .footer--nav--ul--subcontainer {
     gap: 4rem;

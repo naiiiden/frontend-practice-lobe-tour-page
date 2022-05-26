@@ -129,8 +129,24 @@ footer {
         .footer--nav {
             gap: 4rem;
 
+            .footer--nav--ul {
+                a:hover {
+                    display: inline-block;
+                    transform: scale(1.1);
+                    transition: .2s;
+                }
+            }
+
             .footer--resources--socials--container {
                 gap: 3rem;
+
+                .footer--nav--ul--socials {
+                    a:hover {
+                        display: inline-block;
+                        transform: scale(1.2);
+                        transition: .2s;
+                    }
+                }
             }
 
             .footer--nav--ul--subcontainer {
