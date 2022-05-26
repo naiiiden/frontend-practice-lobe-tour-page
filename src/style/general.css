@@ -473,7 +473,9 @@ footer .footer--nav .footer--resources--socials--container .footer--nav--ul--soc
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
 }
 
 @media screen and (min-width: 375px) {
