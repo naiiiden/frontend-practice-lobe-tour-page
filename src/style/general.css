@@ -542,9 +542,6 @@ footer .footer--nav .footer--resources--socials--container .footer--nav--ul--soc
   }
   footer .footer--nav .footer--resources--socials--container {
     gap: 2rem;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
   footer .footer--nav .footer--nav--ul--subcontainer {
     gap: 3rem;
@@ -590,6 +587,9 @@ footer .footer--nav .footer--resources--socials--container .footer--nav--ul--soc
   }
   footer .footer--nav .footer--resources--socials--container {
     gap: 6rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   footer .footer--nav .footer--resources--socials--container .footer--nav--ul--socials {
     -webkit-box-orient: horizontal;

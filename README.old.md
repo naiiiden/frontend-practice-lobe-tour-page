@@ -1,1 +1,0 @@
-# frontend-practice-lobe-tour-page

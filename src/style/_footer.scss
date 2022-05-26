@@ -113,7 +113,7 @@ footer {
 
             .footer--resources--socials--container {
                 gap: 2rem;
-                align-items: flex-start;
+                // align-items: flex-start;
             }
 
             .footer--nav--ul--subcontainer {
@@ -140,6 +140,7 @@ footer {
             }
 
             .footer--resources--socials--container {
+                // align-items: flex-start;
                 gap: 3rem;
 
                 .footer--nav--ul--socials {
@@ -167,6 +168,7 @@ footer {
         
             .footer--resources--socials--container {
                 gap: 6rem;
+                align-items: flex-start;
 
                 .footer--nav--ul--socials {
                     flex-direction: row;
