@@ -82,3 +82,41 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    footer {
+        margin: 0;
+        padding: 3rem 0 6rem 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+
+        .footer--logo--container {
+            order: unset;
+            align-items: flex-start;
+        }
+
+        .footer--nav {
+            flex-direction: row;
+            gap: 3rem;
+
+            .footer--nav--ul {
+                align-items: flex-start;
+
+                .footer--nav--ul--heading {
+                    margin-bottom: .75rem;
+                }
+            }
+
+            .footer--resources--socials--container {
+                gap: 2rem;
+                align-items: flex-start;
+            }
+
+            .footer--nav--ul--subcontainer {
+                gap: 3rem;
+            }
+        }
+    }
+}
