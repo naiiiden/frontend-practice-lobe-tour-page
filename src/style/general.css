@@ -158,6 +158,8 @@ img {
   .header .header--nav .header--nav--ul a {
     font-size: 1.125rem;
     display: inline-block;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   .header .header--nav .header--nav--ul a:hover {
     color: #333;
@@ -170,6 +172,8 @@ img {
     padding: .75rem;
     font-weight: 700;
     cursor: pointer;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   .header .header--nav .header--nav--ul .header--nav--ul--download--link:hover {
     color: #fff;

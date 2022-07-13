@@ -113,6 +113,7 @@
                 a {
                     font-size: 1.125rem;
                     display: inline-block;
+                    transition: .2s;
 
                     &:hover {
                         color: $dark-gray;
@@ -126,6 +127,7 @@
                     padding: .75rem;
                     font-weight: 700;
                     cursor: pointer;
+                    transition: .2s;
 
                     &:hover {
                         color: $white;
