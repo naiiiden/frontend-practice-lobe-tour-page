@@ -351,6 +351,8 @@ img {
   }
   .cta--container .cta--button {
     cursor: pointer;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   .cta--container .cta--button:hover {
     -webkit-transform: scale(1.1);
@@ -560,8 +562,12 @@ footer .footer--nav .footer--resources--socials--container .footer--nav--ul--soc
   footer .footer--nav {
     gap: 4rem;
   }
-  footer .footer--nav .footer--nav--ul a:hover {
+  footer .footer--nav .footer--nav--ul a {
     display: inline-block;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  footer .footer--nav .footer--nav--ul a:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     -webkit-transition: .2s;
@@ -570,8 +576,12 @@ footer .footer--nav .footer--resources--socials--container .footer--nav--ul--soc
   footer .footer--nav .footer--resources--socials--container {
     gap: 3rem;
   }
-  footer .footer--nav .footer--resources--socials--container .footer--nav--ul--socials a:hover {
+  footer .footer--nav .footer--resources--socials--container .footer--nav--ul--socials a {
     display: inline-block;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  footer .footer--nav .footer--resources--socials--container .footer--nav--ul--socials a:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
     -webkit-transition: .2s;
