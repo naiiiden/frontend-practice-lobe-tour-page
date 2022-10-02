@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className="header">
             <a href="https://www.lobe.ai/"><img src={Logo} alt="Lobe homepage" className="header--logo"/></a>
-            <button aria-label="toggle navigation" className="header--menu--button" onClick={ToggleNav}>
+            <button aria-label={!openMenu ? "Open menu" : "Close menu"} aria-expanded={!openMenu ? "false" : "true"} aria-haspopup="true" className="header--menu--button" onClick={ToggleNav}>
                 <img src={!openMenu ? Open : Close} alt=""/>
             </button>
             <nav className="header--nav">
