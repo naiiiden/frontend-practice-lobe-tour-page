@@ -38,9 +38,9 @@ const Footer = () => {
                         <li role="none"><a role="menuitem" href="https://go.microsoft.com/fwlink/?LinkId=521839">Privacy</a></li>
                     </ul>
                     <ul role="menubar" className="footer--nav--ul--socials">
-                        <li role="none"><a role="menuitem" href="https://reddit.com/r/lobe"><img src={Reddit} alt=""/></a></li>
-                        <li role="none"><a role="menuitem" href="https://twitter.com/lobe_ai"><img src={Twitter} alt=""/></a></li>
-                        <li role="none"><a role="menuitem" href="https://www.youtube.com/channel/UCYryctkBIcCszPAFg79rwAw"><img src={Youtube} alt=""/></a></li>
+                        <li role="none"><a role="menuitem" href="https://reddit.com/r/lobe"><img src={Reddit} alt="Our Reddit"/></a></li>
+                        <li role="none"><a role="menuitem" href="https://twitter.com/lobe_ai"><img src={Twitter} alt="Our Twitter"/></a></li>
+                        <li role="none"><a role="menuitem" href="https://www.youtube.com/channel/UCYryctkBIcCszPAFg79rwAw"><img src={Youtube} alt="Our Youtube"/></a></li>
                     </ul>
                 </div>
             </nav>
