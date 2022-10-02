@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 body {
@@ -163,7 +164,7 @@ img {
 .hero--container .hero--description {
   font-size: 1.125rem;
   color: #333;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 .hero--container .hero--video--container {
   margin-top: 3rem;
