@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-practice-lobe-tour-page/static/css/main.963c8902.css",
-    "main.js": "/frontend-practice-lobe-tour-page/static/js/main.0583be1a.js",
+    "main.css": "/frontend-practice-lobe-tour-page/static/css/main.d4cc2aea.css",
+    "main.js": "/frontend-practice-lobe-tour-page/static/js/main.ed6fceb9.js",
     "static/media/Lobe_logo.png": "/frontend-practice-lobe-tour-page/static/media/Lobe_logo.788da60d75e1c9e03d35.png",
     "index.html": "/frontend-practice-lobe-tour-page/index.html",
     "static/media/reddit.svg": "/frontend-practice-lobe-tour-page/static/media/reddit.0737c9cbe3914575196188ff28609b17.svg",
@@ -9,11 +9,11 @@
     "static/media/youtube.svg": "/frontend-practice-lobe-tour-page/static/media/youtube.6dad9ffb44abf0ae0e5d773d0c0e3970.svg",
     "static/media/Close.svg": "/frontend-practice-lobe-tour-page/static/media/Close.2d5f02916aa6daae541444ee4f884040.svg",
     "static/media/Hamburger.svg": "/frontend-practice-lobe-tour-page/static/media/Hamburger.c0b2fced78da8062a3706086ca0bbaae.svg",
-    "main.963c8902.css.map": "/frontend-practice-lobe-tour-page/static/css/main.963c8902.css.map",
-    "main.0583be1a.js.map": "/frontend-practice-lobe-tour-page/static/js/main.0583be1a.js.map"
+    "main.d4cc2aea.css.map": "/frontend-practice-lobe-tour-page/static/css/main.d4cc2aea.css.map",
+    "main.ed6fceb9.js.map": "/frontend-practice-lobe-tour-page/static/js/main.ed6fceb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.963c8902.css",
-    "static/js/main.0583be1a.js"
+    "static/css/main.d4cc2aea.css",
+    "static/js/main.ed6fceb9.js"
   ]
 }
