@@ -12,7 +12,7 @@ const Footer = () => {
                 <li>All rights reserved.</li>
                 <li>© Microsoft 2021</li>
             </ul>
-            <nav className="footer--nav">
+            <nav className="footer--nav" aria-label="Footer">
                 <div className="footer--nav--ul--subcontainer">
                     <ul className="footer--nav--ul">
                         <li className="footer--nav--ul--heading">About</li>

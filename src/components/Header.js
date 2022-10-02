@@ -13,7 +13,7 @@ const Header = () => {
             <button aria-label={!openMenu ? "Open menu" : "Close menu"} aria-expanded={!openMenu ? "false" : "true"} aria-haspopup="true" className="header--menu--button" onClick={ToggleNav}>
                 <img src={!openMenu ? Open : Close} alt=""/>
             </button>
-            <nav className="header--nav">
+            <nav className="header--nav" aria-label="Header">
                 <ul role="menubar" className={`header--nav--ul ${!openMenu ? "" : "show"}`}>
                     <li role="none" className="header--nav--ul--li--link1"><a href="https://www.lobe.ai/">Overview</a></li>
                     <li role="none"><a role="menuitem" href="https://www.lobe.ai/examples">Examples</a></li>
